@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _5.SumNumbers
+{
+    class sumNumbers
+    {
+        static void Main(string[] args)
+        {
+            int num = int.Parse(Console.ReadLine());
+            int sum = 0;
+            for (int i = 0; i < num; i++)
+            {
+                int needSum = int.Parse(Console.ReadLine());
+                 sum = sum + needSum;
+            }
+            Console.WriteLine(sum);
+        }
+    }
+}
